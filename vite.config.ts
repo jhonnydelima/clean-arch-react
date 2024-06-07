@@ -13,7 +13,7 @@ export default defineConfig({
     exclude: ["node_modules", "dist", ".idea", ".git", ".cache"],
     coverage: {
       reporter: ["text", "json", "html"],
-      reportsDirectory: "./test/coverage",
+      reportsDirectory: "./coverage",
       include: ["**/(*.)?{test,spec}.{ts,tsx}"],
     },
   },
