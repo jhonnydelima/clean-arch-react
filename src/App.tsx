@@ -1,5 +1,5 @@
+import "./global.css";
+
 export function App() {
-  return (
-    <div>Clean Arch React</div>
-  )
+  return <div>Clean Arch React</div>;
 }
