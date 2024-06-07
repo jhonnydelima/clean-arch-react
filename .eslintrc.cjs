@@ -14,5 +14,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    '@typescript-eslint/consistent-type-definitions': "off",
+    '@typescript-eslint/strict-boolean-expressions': "off"
   },
 }
