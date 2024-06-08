@@ -11,6 +11,7 @@
     "test": "vitest --run",
     "test:silent": "vitest --run --silent",
     "test:watch": "vitest --watch",
+    "test:staged": "vitest related --run",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
